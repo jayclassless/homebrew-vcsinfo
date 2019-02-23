@@ -2,9 +2,9 @@
 class Vcsinfo < Formula
   desc "A tool for retrieving/displaying basic information about the status of a VCS repository."
   homepage "https://github.com/jayclassless/vcsinfo"
-  url "https://github.com/jayclassless/vcsinfo/releases/download/0.2.0/vcsinfo_0.2.0_macos_amd64.tar.gz"
-  version "0.2.0"
-  sha256 "282a34e27b113489675321c5b0548d6462cc6744594349bd88d785403e494588"
+  url "https://github.com/jayclassless/vcsinfo/releases/download/0.2.1/vcsinfo_0.2.1_macos_amd64.tar.gz"
+  version "0.2.1"
+  sha256 "988c963079133eb193b681e56985ea6649bd6891cfe739d7884d9d6527b85837"
 
   def install
     bin.install "vcsinfo"

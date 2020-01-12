@@ -2,16 +2,16 @@
 class Vcsinfo < Formula
   desc "A tool for retrieving/displaying basic information about the status of a VCS repository."
   homepage "https://github.com/jayclassless/vcsinfo"
-  version "0.3.4"
+  version "0.3.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/jayclassless/vcsinfo/releases/download/0.3.4/vcsinfo_0.3.4_macos_amd64.tar.gz"
-    sha256 "735a3e4bce1600ca4994c7a1d7feac95a7ebe60cc36c5341a5800b41c1770653"
+    url "https://github.com/jayclassless/vcsinfo/releases/download/0.3.5/vcsinfo_0.3.5_macos_amd64.tar.gz"
+    sha256 "5a225baf9558f9c627a7bc0b7b66316f665ee01df0f8bf252447f6cd31904466"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/jayclassless/vcsinfo/releases/download/0.3.4/vcsinfo_0.3.4_linux_amd64.tar.gz"
-      sha256 "0f0a7d69695c2dbc9ac02faaf106d65201ab6fa13285a0f44c37654d7311b18b"
+      url "https://github.com/jayclassless/vcsinfo/releases/download/0.3.5/vcsinfo_0.3.5_linux_amd64.tar.gz"
+      sha256 "a70ac02dc7cb58382a84ab59df5c99b0f2889736e236c54b2f4118c115587501"
     end
   end
 
